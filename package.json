@@ -1,0 +1,33 @@
+{
+  "name": "mon-template",
+  "version": "1.0.0",
+  "description": "Template for js projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack serve --mode development --open",
+    "lint": "eslint src --fix",
+    "format": "prettier --write \"src/**/*.{js,css}\"",
+    "clean": "rm -rf dist/*"
+  },
+  "keywords": [],
+  "author": "vinesk",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.3",
+    "@babel/preset-env": "^7.24.3",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.10.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "html-webpack-plugin": "^5.6.0",
+    "prettier": "^3.2.5",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
